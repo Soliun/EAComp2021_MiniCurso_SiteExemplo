@@ -1,0 +1,76 @@
+p, h1, h2, h3, h4, h5, h6{
+    color: var(--brown);
+}
+
+.button{
+    font-weight: bold;
+    padding-left: 1.4em;
+    padding-right: 1.4em;
+    border-radius: 1em;
+    text-transform: uppercase;
+}
+
+.button-primary{
+    color: var(--brown);
+    border-color: var(--brown);
+    text-transform: uppercase;
+}
+
+.button-primary:hover{
+    background-color: var(--brown);
+    border-color: var(--brown);
+    color: white;
+}
+
+.button-primary:focus, .button-primary:active:focus{
+    box-shadow: none;
+}
+
+.button-outline{
+    color: var(--brown);
+    border-color: var(--brown);
+    text-transform: uppercase;
+}
+
+.button-outline:hover{
+    background-color: transparent;
+    border-color: var(--brown);
+}
+
+.button-outline:focus, .button-outline:active:focus{
+    box-shadow: none;
+}
+
+.bg-light{
+    background-color: var(--red);
+}
+
+.bg-dark{
+    background-color: var(--brown);
+    color: white;
+}
+
+svg{
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -.125em;
+}
+
+.bg-creme{
+    background-color: var(--creme);
+}
+
+
+.bg-brown{
+    background-color: var(--brown);
+}
+
+.bg-orange{
+    background-color: var(--orange);
+}
+
+.bg-yellow{
+    background-color: var(--yellow);
+}

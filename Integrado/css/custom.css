@@ -1,0 +1,87 @@
+body, html{
+    font-family: 'Roboto', sans-serif;
+}
+
+#header{
+    width: 100%;
+    background-color: var(--brown);
+    transition: background ease-out 0.2s;
+}
+
+#header .navbar-collapse{
+    width: auto;    
+}
+
+#header .nav-link{
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 0;
+    padding-right: 0;
+    color: white;
+    border-bottom: solid 2px transparent;
+}
+
+#header .nav-link:hover{
+    border-bottom: solid 2px white;
+}
+
+#header .active{
+    border-bottom: solid 2px white;
+}
+
+#header .navbar-light .navbar-toggler{
+    color: transparent;
+    border-color: transparent;
+}
+
+#header .navbar-light .navbar-toggler:focus{
+    outline: none;
+}
+
+#header .navbar-light .navbar-toggler-icon{
+    background-image: url(../assets/favicon-v1/icone-menu-48x48.png);
+}
+
+#carouselExampleIndicators{ 
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/desert.jpg);
+    background-size: cover;
+    /*Centralizando Verticalmente os elmeentos do Carrossel*/
+    display: flex;
+    align-items: center;
+}
+
+#carouselExampleIndicators h1{
+    color: var(--brown);
+    font-size: 5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#carouselExampleIndicators p{
+    color: var(--brown);
+    font-size: 2em;
+}
+
+#sobre{
+    background-color: var(--creme);
+}
+
+#footer .bg-footer, #footer .bg-footer p{
+    background-color: var(--brown);
+    color: white;
+}
+
+#footer h1, #footer h2{
+    border-color: var(--brown);
+    color: var(--brown);
+}
+
+#footer h1::after, #footer h2::after{
+    background: var(--brown);
+    content: '';
+    display: block;
+    width: 100%;
+    height: 5px;
+}
