@@ -2,7 +2,7 @@
 
     $hostname="localhost";
     $bd="minicurso";
-    $usuario="root2";
+    $usuario="root";
     $senha="";
 
     $mysqli = new mysqli($hostname, $usuario, $senha, $bd);
