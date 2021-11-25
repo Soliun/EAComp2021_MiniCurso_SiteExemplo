@@ -1,5 +1,4 @@
 <?php
-    $buscaRealizada =  false;
 
     if(isset($_POST['Titulo'])){
       $titulo = $_POST['Titulo'];

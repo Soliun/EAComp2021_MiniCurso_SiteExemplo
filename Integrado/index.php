@@ -72,10 +72,10 @@
                     ?>
                 <div class="col-sm-4">
                     <div class="card">
-                        <img class="card-img-top px-3 py-3" src="./assets/integrantes/<?php print_r(utf8_encode($row['Foto'])) ?>" alt="Imagem de capa do card">
+                        <img class="card-img-top px-3 py-3" src="./assets/integrantes/<?php print_r($row['Foto']) ?>" alt="Imagem de capa do card">
                         <div class="card-body text-center">
-                            <h5 class="card-title"><?php print_r(utf8_encode($row['Titulo'])) ?></h5>
-                            <p class="card-text"><?php print_r(utf8_encode($row['Texto'])) ?></p>
+                            <h5 class="card-title"><?php print_r($row['Titulo']) ?></h5>
+                            <p class="card-text"><?php print_r($row['Texto']) ?></p>
                             <a href="#integrantes" class="btn button-primary btn-outline-primary button">Visitar</a>
                         </div>
                     </div>    

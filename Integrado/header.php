@@ -8,10 +8,10 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.php">Página Inicial</a>
+                            <a class="nav-link" aria-current="page" href="index.php">Página Inicial</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="noticias.php">Notícias</a>
+                            <a class="nav-link" aria-current="page" href="noticias.php">Notícias</a>
                         </li>
                         <li class="nav-item">
                         <a class="nav-link" href="documentos.php">Documentos</a>

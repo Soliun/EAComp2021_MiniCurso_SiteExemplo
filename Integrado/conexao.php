@@ -1,5 +1,5 @@
 <?php
-
+    
     $hostname="localhost";
     $bd="minicurso";
     $usuario="root";
